@@ -1,6 +1,6 @@
 # GitHub math bugs
 
-#### Two brackets
+### Two brackets
 
 ```markdown
 $[a+b](c+d)$
@@ -8,7 +8,7 @@ $[a+b](c+d)$
 
 $[a+b](c+d)$
 
-#### Backslashes in `$`-math
+### Backslashes in `$`-math
 
 - https://github.com/community/community/discussions/16993
 - https://github.com/community/community/discussions/17143
@@ -20,7 +20,7 @@ $\{a\}$
 
 $\{a\}$
 
-#### Math vs. HTML mix-up
+### Math vs. HTML mix-up
 
 - https://github.com/community/community/discussions/17022
 
@@ -34,7 +34,7 @@ $$
 a <b > c
 $$
 
-#### Sub/product signs in inline mode
+### Sub/product signs in inline mode
 
 - https://github.com/community/community/discussions/17051
 
@@ -48,7 +48,7 @@ $f(x) = \sum_{i=0}^{n} a_i x^i$
 
 $g(x) = \prod_{i=0}^{n} a_i x^i$
 
-#### Spacing around dollar sign in math mode
+### Spacing around dollar sign in math mode
 
 - https://github.com/community/community/discussions/17116
 
@@ -58,7 +58,7 @@ $x = \$$
 
 $x = \$$
 
-#### Math in italic text
+### Math in italic text
 
 - https://github.com/community/community/discussions/17264
 
@@ -68,7 +68,7 @@ _Equation $\Omega(69)$ in italic text_
 
 _Equation $\Omega(69)$ in italic text_
 
-#### Inline math and display math in same list item doesn't render
+### Inline math and display math in same list item doesn't render
 
 - https://github.com/community/community/discussions/17325
 - https://github.com/community/community/discussions/18817
@@ -97,7 +97,7 @@ _Equation $\Omega(69)$ in italic text_
   b
   ```
 
-#### Inline math can't be surrounded by brackets, quotation marks etc.
+### Inline math can't be surrounded by brackets, quotation marks etc.
 
 - https://github.com/community/community/discussions/28115
 - https://github.com/community/community/discussions/30157
@@ -108,7 +108,7 @@ $\pi$, "$\pi$", ($\pi$)
 
 $\pi$, "$\pi$", ($\pi$)
 
-#### Dollar-math with spaces
+### Dollar-math with spaces
 
 - https://github.com/community/community/discussions/30747
 
@@ -123,7 +123,7 @@ $$ x = 1 $$
 A
 $$ x = 1 $$
 
-#### Oversized sqrt symbol around fractions
+### Oversized sqrt symbol around fractions
 
 - https://github.com/community/community/discussions/39251
 
@@ -131,7 +131,7 @@ $$ x = 1 $$
 \sqrt{\frac{1}{2}}
 ```
 
-#### Sum in fraction
+### Sum in fraction
 
 - https://github.com/community/community/discussions/39432
 
@@ -139,7 +139,7 @@ $$ x = 1 $$
 \frac{\sum_{i=1}^n}{2}
 ```
 
-##### Dollar in `\text`
+#### Dollar in `\text`
 
 - https://github.com/community/community/discussions/39655
 
@@ -151,7 +151,7 @@ a
   \text{$b$}
   ```
 
-#### Issues with underscores
+### Issues with underscores
 
 - https://github.com/community/community/discussions/36915
 - https://github.com/community/community/discussions/41087
