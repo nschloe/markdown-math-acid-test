@@ -17,16 +17,14 @@ $\{a\}$
 - https://github.com/community/community/discussions/17022
 
 ```markdown
-$$
-a <b > c
-[a+b](c+d)
-$$
+$a <b > c$
+
+$[a+b](c+d)$
 ```
 
-$$
-a <b > c
-[a+b](c+d)
-$$
+$a <b > c$
+
+$[a+b](c+d)$
 
 <!--Terminate the bold tag-->
 
