@@ -20,6 +20,20 @@ $\{a\}$
 
 $\{a\}$
 
+#### Math vs. HTML mix-up
+
+- https://github.com/community/community/discussions/17022
+
+```markdown
+$$
+a <b > c
+$$
+```
+
+$$
+a <b > c
+$$
+
 #### Sub/product signs in inline mode
 
 - https://github.com/community/community/discussions/17051
