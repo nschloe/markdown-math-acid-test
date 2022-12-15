@@ -28,15 +28,11 @@ $\{a\}$
 $f(x) = \sum_{i=0}^{n} a_i x^i$
 
 $g(x) = \prod_{i=0}^{n} a_i x^i$
-
-$\int_{-\infty}^{\infty} e^{-x^2}$
 ```
 
 $f(x) = \sum_{i=0}^{n} a_i x^i$
 
 $g(x) = \prod_{i=0}^{n} a_i x^i$
-
-$\int_{-\infty}^{\infty} e^{-x^2}$
 
 #### Spacing around dollar sign in math mode
 
