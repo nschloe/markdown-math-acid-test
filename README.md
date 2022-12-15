@@ -34,19 +34,15 @@ $$
 a <b > c
 $$
 
-### Sub/product signs in inline mode
+### Sum/product signs in inline mode
 
 - https://github.com/community/community/discussions/17051
 
 ```markdown
-$f(x) = \sum_{i=0}^{n} a_i x^i$
-
-$g(x) = \prod_{i=0}^{n} a_i x^i$
+$f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 ```
 
-$f(x) = \sum_{i=0}^{n} a_i x^i$
-
-$g(x) = \prod_{i=0}^{n} a_i x^i$
+$f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 
 ### Spacing around dollar sign in math mode
 
