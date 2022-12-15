@@ -19,6 +19,35 @@ $\{a\}$
 
 $\{a\}$
 
+##### Inline math and display math in same list item doesn't render 
+
+- https://github.com/community/community/discussions/17325
+- https://github.com/community/community/discussions/39545 -
+- https://github.com/community/community/discussions/40775
+
+````markdown
+- $a$
+
+  ```math
+  a
+  ```
+
+- ```math
+  b
+  ```
+````
+
+- $a$
+
+  ```math
+  a
+  ```
+
+- ```math
+  b
+  ```
+
+
 ##### Inline math can't be surrounded by brackets, quotation marks etc. https://github.com/community/community/discussions/30157
 
 ```markdown
@@ -49,31 +78,7 @@ $$ x = 1 $$
 \frac{\sum_{i=1}^n}{2}
 ```
 
-##### Inline math and display math in same list item doesn't render https://github.com/community/community/discussions/39545 https://github.com/community/community/discussions/40775
-
-````markdown
-- $a$
-
-  ```math
-  a
-  ```
-
-- ```math
-  b
-  ```
-````
-
-- $a$
-
-  ```math
-  a
-  ```
-
-- ```math
-  b
-  ```
-
-##### Dollar in `\text` https://github.com/community/community/discussions/39655
+###### Dollar in `\text` https://github.com/community/community/discussions/39655
 
 ```math
 a
