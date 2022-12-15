@@ -139,7 +139,7 @@ $$ x = 1 $$
 \frac{\sum_{i=1}^n}{2}
 ```
 
-#### Dollar in `\text`
+### Dollar in `\text`
 
 - https://github.com/community/community/discussions/39655
 
