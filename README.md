@@ -1,13 +1,5 @@
 # GitHub math bugs
 
-### Two brackets
-
-```markdown
-$[a+b](c+d)$
-```
-
-$[a+b](c+d)$
-
 ### Backslashes in `$`-math
 
 - https://github.com/community/community/discussions/16993
@@ -27,11 +19,13 @@ $\{a\}$
 ```markdown
 $$
 a <b > c
+[a+b](c+d)
 $$
 ```
 
 $$
 a <b > c
+[a+b](c+d)
 $$
 
 <!--Terminate the bold tag-->
