@@ -34,6 +34,10 @@ $$
 a <b > c
 $$
 
+<!--Terminate the bold tag-->
+
+</b>
+
 ### Sum/product signs in inline mode
 
 - https://github.com/community/community/discussions/17051
