@@ -143,6 +143,16 @@ $$ x = 1 $$
 
 - https://github.com/community/community/discussions/39655
 
+````markdown
+```math
+a
+```
+
+- ```math
+  \text{$b$}
+  ```
+````
+
 ```math
 a
 ```
