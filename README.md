@@ -11,6 +11,7 @@ $[a+b](c+d)$
 #### Backslashes in `$`-math
 
 - https://github.com/community/community/discussions/16993
+- https://github.com/community/community/discussions/17143
 - https://github.com/community/community/discussions/31812
 
 ```markdown
@@ -18,6 +19,24 @@ $\{a\}$
 ```
 
 $\{a\}$
+
+#### Sub/product signs in inline mode
+
+- https://github.com/community/community/discussions/17051
+
+```markdown
+$f(x) = \sum_{i=0}^{n} a_i x^i$
+
+$g(x) = \prod_{i=0}^{n} a_i x^i$
+
+$\int_{-\infty}^{\infty} e^{-x^2}$
+```
+
+$f(x) = \sum_{i=0}^{n} a_i x^i$
+
+$g(x) = \prod_{i=0}^{n} a_i x^i$
+
+$\int_{-\infty}^{\infty} e^{-x^2}$
 
 #### Spacing around dollar sign in math mode
 
