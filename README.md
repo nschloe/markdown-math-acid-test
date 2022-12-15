@@ -15,10 +15,10 @@ some MWEs. If you have any more examples, let me know or PR!
 - https://github.com/community/community/discussions/31812
 
 ```markdown
-$\{a\}$
+$\{a\,b\}$
 ```
 
-$\{a\}$
+$\{a\,b\}$
 
 ### Math vs. HTML mix-up
 
