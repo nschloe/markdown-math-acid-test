@@ -46,14 +46,14 @@ $[a+b](c+d)$
 $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 
 ```math
-\frac{\sum_{i=1}^n \prod_{i=1}^n}{2}
+\frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
 ```
 ````
 
 $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 
 ```math
-\frac{\sum_{i=1}^n}{2}
+\frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
 ```
 
 ### Spacing around dollar sign in math mode
