@@ -24,11 +24,10 @@ $[a+b](c+d)$
 
 $a <b > c$
 
-$[a+b](c+d)$
-
-<!--Terminate the bold tag-->
-
+<!--Terminate the (false) bold tag-->
 </b>
+
+$[a+b](c+d)$
 
 ### Sum/product signs in inline mode
 
