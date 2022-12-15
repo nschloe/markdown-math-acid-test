@@ -8,13 +8,24 @@ $[a+b](c+d)$
 
 $[a+b](c+d)$
 
-##### Backslashes in `$`-math https://github.com/community/community/discussions/16993
+##### Backslashes in `$`-math
+
+- https://github.com/community/community/discussions/16993
+- https://github.com/community/community/discussions/31812
 
 ```markdown
 $\{a\}$
 ```
 
 $\{a\}$
+
+##### Inline math can't be surrounded by brackets, quotation marks etc. https://github.com/community/community/discussions/30157
+
+```markdown
+$\pi$, "$\pi$", ($\pi$)
+```
+
+$\pi$, "$\pi$", ($\pi$)
 
 ##### Dollar-math with spaces https://github.com/community/community/discussions/30747
 
@@ -74,18 +85,11 @@ a
 
 ##### Issues with underscores
 
-- https://github.com/community/community/discussions/30747
-
-  ```markdown
-  ${a}_b c_{d}$
-  ```
-
-  ${a}_b c_{d}$
-
+- https://github.com/community/community/discussions/36915
 - https://github.com/community/community/discussions/41087
 
   ```markdown
-  $[x]_y a_{b}$
+  ${a}_b c_{d}$
   ```
 
-  $[x]_y a_{b}$
+  ${a}_b c_{d}$
