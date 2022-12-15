@@ -19,7 +19,7 @@ $\{a\}$
 
 $\{a\}$
 
-#### Dollar sign in math mode
+#### Spacing around dollar sign in math mode
 
 - https://github.com/community/community/discussions/17116
 
@@ -28,6 +28,16 @@ $x = \$$
 ```
 
 $x = \$$
+
+#### Math in italic text
+
+- https://github.com/community/community/discussions/17264
+
+```markdown
+_Equation $\Omega(69)$ in italic text_
+```
+
+_Equation $\Omega(69)$ in italic text_
 
 #### Inline math and display math in same list item doesn't render
 
