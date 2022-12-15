@@ -37,15 +37,24 @@ $a <b > c$
 
 $[a+b](c+d)$
 
-### Sum/product signs in inline mode
+### Sum/product signs in inline mode or fractions
 
 - https://github.com/community/community/discussions/17051
+- https://github.com/community/community/discussions/39432
 
-```markdown
+````markdown
 $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
+
+```math
+\frac{\sum_{i=1}^n \prod_{i=1}^n}{2}
 ```
+````
 
 $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
+
+```math
+\frac{\sum_{i=1}^n}{2}
+```
 
 ### Spacing around dollar sign in math mode
 
@@ -128,14 +137,6 @@ $$ x = 1 $$
 
 ```math
 \sqrt{\frac{1}{2}}
-```
-
-### Sum in fraction
-
-- https://github.com/community/community/discussions/39432
-
-```math
-\frac{\sum_{i=1}^n}{2}
 ```
 
 ### Dollar in `\text`
