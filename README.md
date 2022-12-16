@@ -30,12 +30,12 @@ $a <b > c$
 $[a+b](c+d)$
 ```
 
-$a <b > c$
-
-<!--Terminate the (false) bold tag-->
-</b>
-
-$[a+b](c+d)$
+> $a <b > c$
+>
+> <!--Terminate the (false) bold tag-->
+> </b>
+>
+> $[a+b](c+d)$
 
 ### Sum/product signs in inline mode or fractions
 
@@ -50,11 +50,11 @@ $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 ```
 ````
 
-$f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
-
-```math
-\frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
-```
+> $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
+>
+> ```math
+> \frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
+> ```
 
 ### Spacing around dollar sign in math mode
 
@@ -64,7 +64,7 @@ $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 $x = \$$
 ```
 
-$x = \$$
+> $x = \$$
 
 ### Math in italic text
 
@@ -74,7 +74,7 @@ $x = \$$
 _Equation $\Omega(69)$ in italic text_
 ```
 
-_Equation $\Omega(69)$ in italic text_
+> _Equation $\Omega(69)$ in italic text_
 
 ### Inline math and display math in same list item doesn't render
 
@@ -95,15 +95,15 @@ _Equation $\Omega(69)$ in italic text_
   ```
 ````
 
-- $a$
-
-  ```math
-  a
-  ```
-
-- ```math
-  b
-  ```
+> - $a$
+>
+>   ```math
+>   a
+>   ```
+>
+> - ```math
+>   b
+>   ```
 
 ### Inline math can't be surrounded by brackets, quotation marks etc.
 
@@ -114,7 +114,7 @@ _Equation $\Omega(69)$ in italic text_
 $\pi$, "$\pi$", ($\pi$)
 ```
 
-$\pi$, "$\pi$", ($\pi$)
+> $\pi$, "$\pi$", ($\pi$)
 
 ### Dollar-math with spaces
 
@@ -124,20 +124,26 @@ This is the example from [GitHub's announcement blog
 post](https://github.blog/2022-05-19-math-support-in-markdown/).
 
 ```markdown
-A
-$$ x = 1 $$
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 ```
 
-A
-$$ x = 1 $$
+> When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+> $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Oversized sqrt symbol around fractions
 
 - https://github.com/community/community/discussions/39251
 
+````markdown
 ```math
 \sqrt{\frac{1}{2}}
 ```
+````
+
+> ```math
+> \sqrt{\frac{1}{2}}
+> ```
 
 ### Dollar in `\text`
 
@@ -153,21 +159,21 @@ a
   ```
 ````
 
-```math
-a
-```
-
-- ```math
-  \text{$b$}
-  ```
+> ```math
+> a
+> ```
+>
+> - ```math
+>   \text{$b$}
+>   ```
 
 ### Issues with underscores
 
 - https://github.com/community/community/discussions/36915
 - https://github.com/community/community/discussions/41087
 
-  ```markdown
-  ${a}_b c_{d}$
-  ```
+```markdown
+${a}_b c_{d}$
+```
 
-  ${a}_b c_{d}$
+> ${a}_b c_{d}$
