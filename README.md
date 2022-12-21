@@ -18,7 +18,7 @@ some MWEs. If you have any more examples, let me know or PR!
 $\{a\,b\}$
 ```
 
-$\{a\,b\}$
+> $\{a\,b\}$
 
 ### Math vs. HTML mix-up
 
