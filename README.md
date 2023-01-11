@@ -91,6 +91,35 @@ _Equation $\Omega(69)$ in italic text_
 
 > _Equation $\Omega(69)$ in italic text_
 
+### Inline math and display math in same list item doesn't render
+
+- https://github.com/community/community/discussions/17325
+- https://github.com/community/community/discussions/18817
+- https://github.com/community/community/discussions/39545
+- https://github.com/community/community/discussions/40775
+
+````markdown
+- $a$
+
+  ```math
+  a
+  ```
+
+- ```math
+  b
+  ```
+````
+
+> - $a$
+>
+>   ```math
+>   a
+>   ```
+>
+> - ```math
+>   b
+>   ```
+
 ### Inline math can't be surrounded by brackets, quotation marks etc.
 
 - https://github.com/community/community/discussions/28115
@@ -148,36 +177,3 @@ ${a}_b c_{d}$
 ```
 
 > ${a}_b c_{d}$
-
-## Fixed?
-
-### Inline math and display math in same list item doesn't render
-
-Working since Jan. 2023.
-
-- https://github.com/community/community/discussions/17325
-- https://github.com/community/community/discussions/18817
-- https://github.com/community/community/discussions/39545
-- https://github.com/community/community/discussions/40775
-
-````markdown
-- $a$
-
-  ```math
-  a
-  ```
-
-- ```math
-  b
-  ```
-````
-
-> - $a$
->
->   ```math
->   a
->   ```
->
-> - ```math
->   b
->   ```
