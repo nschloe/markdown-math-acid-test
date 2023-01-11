@@ -8,6 +8,21 @@ posts about it.)
 To keep track of what's working and what isn't, I've created this repo with
 some MWEs. If you have any more examples, let me know or PR!
 
+### Dollar-math with spaces
+
+- https://github.com/community/community/discussions/30747
+
+This is the example from [GitHub's announcement blog
+post](https://github.blog/2022-05-19-math-support-in-markdown/).
+
+```markdown
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+```
+
+> When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+> $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
 ### Backslashes in `$`-math
 
 - https://github.com/community/community/discussions/16993
@@ -115,21 +130,6 @@ $\pi$, "$\pi$", ($\pi$)
 ```
 
 > $\pi$, "$\pi$", ($\pi$)
-
-### Dollar-math with spaces
-
-- https://github.com/community/community/discussions/30747
-
-This is the example from [GitHub's announcement blog
-post](https://github.blog/2022-05-19-math-support-in-markdown/).
-
-```markdown
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-```
-
-> When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
-> $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Oversized sqrt symbol around fractions
 
