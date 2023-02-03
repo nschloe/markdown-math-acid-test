@@ -184,108 +184,18 @@ ${a}_b c_{d}$
 
 ````markdown
 ```math
-1.  {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-10. {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-20. {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-30. {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-40. {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-    {\color{red}a}
-50. {\color{red}a}
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
 ```
 ````
 
 > ```math
-> 1.  {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
-> 10. {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
-> 20. {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
-> 30. {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
-> 40. {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
->     {\color{red}a}
-> 50. {\color{red}a}
-> ```
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+```
