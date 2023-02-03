@@ -177,3 +177,115 @@ ${a}_b c_{d}$
 ```
 
 > ${a}_b c_{d}$
+
+### 50 or more colors in a block
+
+- https://github.com/orgs/community/discussions/45276
+
+````markdown
+```math
+1.  {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+10. {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+20. {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+30. {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+40. {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+    {\color{red}a}
+50. {\color{red}a}
+```
+````
+
+> ```math
+> 1.  {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+> 10. {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+> 20. {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+> 30. {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+> 40. {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+>     {\color{red}a}
+> 50. {\color{red}a}
+> ```
