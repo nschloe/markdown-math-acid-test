@@ -10,7 +10,7 @@ some MWEs. If you have any more examples, let me know or PR!
 
 ### Dollar-math with spaces
 
-- https://github.com/community/community/discussions/30747
+- https://github.com/orgs/community/discussions/30747
 
 This is the example from [GitHub's announcement blog
 post](https://github.blog/2022-05-19-math-support-in-markdown/).
@@ -25,9 +25,10 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Backslashes in `$`-math
 
-- https://github.com/community/community/discussions/16993
-- https://github.com/community/community/discussions/17143
-- https://github.com/community/community/discussions/31812
+- https://github.com/orgs/community/discussions/16993
+- https://github.com/orgs/community/discussions/17143
+- https://github.com/orgs/community/discussions/31812
+- https://github.com/orgs/community/discussions/46788
 
 ```markdown
 $\{a\,b\}$
@@ -37,7 +38,7 @@ $\{a\,b\}$
 
 ### Math vs. HTML mix-up
 
-- https://github.com/community/community/discussions/17022
+- https://github.com/orgs/community/discussions/17022
 
 ```markdown
 $a <b > c$
@@ -54,8 +55,8 @@ $[a+b](c+d)$
 
 ### Sum/product signs in inline mode or fractions
 
-- https://github.com/community/community/discussions/17051
-- https://github.com/community/community/discussions/39432
+- https://github.com/orgs/community/discussions/17051
+- https://github.com/orgs/community/discussions/39432
 
 ````markdown
 $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
@@ -73,7 +74,7 @@ $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
 
 ### Spacing around dollar sign in math mode
 
-- https://github.com/community/community/discussions/17116
+- https://github.com/orgs/community/discussions/17116
 
 ```markdown
 $x = \$$
@@ -83,7 +84,7 @@ $x = \$$
 
 ### Math in italic text
 
-- https://github.com/community/community/discussions/17264
+- https://github.com/orgs/community/discussions/17264
 
 ```markdown
 _Equation $\Omega(69)$ in italic text_
@@ -93,10 +94,10 @@ _Equation $\Omega(69)$ in italic text_
 
 ### Inline math and display math in same list item doesn't render
 
-- https://github.com/community/community/discussions/17325
-- https://github.com/community/community/discussions/18817
-- https://github.com/community/community/discussions/39545
-- https://github.com/community/community/discussions/40775
+- https://github.com/orgs/community/discussions/17325
+- https://github.com/orgs/community/discussions/18817
+- https://github.com/orgs/community/discussions/39545
+- https://github.com/orgs/community/discussions/40775
 
 ````markdown
 - $a$
@@ -122,8 +123,8 @@ _Equation $\Omega(69)$ in italic text_
 
 ### Inline math can't be surrounded by brackets, quotation marks etc.
 
-- https://github.com/community/community/discussions/28115
-- https://github.com/community/community/discussions/30157
+- https://github.com/orgs/community/discussions/28115
+- https://github.com/orgs/community/discussions/30157
 
 ```markdown
 $\pi$, "$\pi$", ($\pi$)
@@ -133,7 +134,7 @@ $\pi$, "$\pi$", ($\pi$)
 
 ### Oversized sqrt symbol around fractions
 
-- https://github.com/community/community/discussions/39251
+- https://github.com/orgs/community/discussions/39251
 
 ````markdown
 ```math
@@ -147,7 +148,7 @@ $\pi$, "$\pi$", ($\pi$)
 
 ### Dollar in `\text`
 
-- https://github.com/community/community/discussions/39655
+- https://github.com/orgs/community/discussions/39655
 
 ````markdown
 ```math
@@ -169,8 +170,8 @@ a
 
 ### Issues with underscores
 
-- https://github.com/community/community/discussions/36915
-- https://github.com/community/community/discussions/41087
+- https://github.com/orgs/community/discussions/36915
+- https://github.com/orgs/community/discussions/41087
 
 ```markdown
 ${a}_b c_{d}$
