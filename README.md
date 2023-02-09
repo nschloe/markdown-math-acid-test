@@ -43,7 +43,7 @@ $\{a\,b\}$
 ```markdown
 $a <b > c$
 
-$[a+b](c+d)$
+$[(a+b)c](d+e)$
 ```
 
 > $a <b > c$
@@ -51,7 +51,7 @@ $[a+b](c+d)$
 > <!--Terminate the (false) bold tag-->
 > </b>
 >
-> $[a+b](c+d)$
+> $[(a+b)c](d+e)$
 
 ### Sum/product signs in inline mode or fractions
 
