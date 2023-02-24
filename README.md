@@ -127,16 +127,28 @@ _Equation $\Omega(69)$ in italic text_
 >   b
 >   ```
 
-### Inline math can't be surrounded by brackets, quotation marks etc.
+### Inline math can't be preceded by brackets, quotation marks etc.
 
 - https://github.com/orgs/community/discussions/28115
 - https://github.com/orgs/community/discussions/30157
 
 ```markdown
-$\pi$, "$\pi$", ($\pi$)
+$\pi$
+'$\pi$
+"$\pi$
+($\pi$
+[$\pi$
+{$\pi$
+/$\pi$
 ```
 
-> $\pi$, "$\pi$", ($\pi$)
+> $\pi$
+> '$\pi$
+> "$\pi$
+> ($\pi$
+> [$\pi$
+> {$\pi$
+> /$\pi$
 
 ### Oversized sqrt symbol around fractions
 
