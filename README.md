@@ -39,11 +39,15 @@ $\{a\,b\}$
 ### Math vs. HTML mix-up
 
 - https://github.com/orgs/community/discussions/17022
+- https://github.com/orgs/community/discussions/36915
+- https://github.com/orgs/community/discussions/41087
 
 ```markdown
 $a <b > c$
 
 $[(a+b)c](d+e)$
+
+${a}_b c_{d}$
 ```
 
 > $a <b > c$
@@ -52,6 +56,8 @@ $[(a+b)c](d+e)$
 > </b>
 >
 > $[(a+b)c](d+e)$
+>
+> ${a}_b c_{d}$
 
 ### Sum/product signs in inline mode or fractions
 
@@ -167,17 +173,6 @@ a
 > - ```math
 >   \text{$b$}
 >   ```
-
-### Issues with underscores
-
-- https://github.com/orgs/community/discussions/36915
-- https://github.com/orgs/community/discussions/41087
-
-```markdown
-${a}_b c_{d}$
-```
-
-> ${a}_b c_{d}$
 
 ### 50 or more colors in a block
 
