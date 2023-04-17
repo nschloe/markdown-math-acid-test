@@ -220,7 +220,7 @@ a
 > 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
 > ```
 
-### Matricies without line breaks in $$-math
+### Matrices without line breaks in $$-math
 
 - https://github.com/orgs/community/discussions/52991
 
