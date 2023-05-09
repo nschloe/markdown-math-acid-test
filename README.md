@@ -36,14 +36,9 @@ $\{a\,b\}$
 
 > $\{a\,b\}$
 
-With backtick math:
-
-```markdown
-$`\{a\,b\}`$
-```
+Fixed by using backtick delimiters:
 
 > $`\{a\,b\}`$
-
 
 ### Math vs. HTML mix-up
 
@@ -68,15 +63,7 @@ ${a}_b c_{d}$
 >
 > ${a}_b c_{d}$
 
-With backtick math:
-
-```markdown
-$`a <b > c`$
-
-$`[(a+b)c](d+e)`$
-
-$`{a}_b c_{d}`$
-```
+Some fixed by using backtick delimiters:
 
 > $`a <b > c`$
 >
@@ -113,6 +100,10 @@ $x = \$$
 
 > $x = \$$
 
+Fixed by using backtick delimiters:
+
+> $`x = \$`$
+
 ### Math in italic text
 
 - https://github.com/orgs/community/discussions/17264
@@ -123,11 +114,7 @@ _Equation $\Omega(69)$ in italic text_
 
 > _Equation $\Omega(69)$ in italic text_
 
-With backtick math:
-
-```markdown
-_Equation $`\Omega(69)`$ in italic text_
-```
+Fixed by using backtick delimiters:
 
 > _Equation $`\Omega(69)`$ in italic text_
 
@@ -160,7 +147,7 @@ _Equation $`\Omega(69)`$ in italic text_
 >   b
 >   ```
 
-With backtick math:
+With backtick delimiters:
 
 > - $`a`$
 >
@@ -194,6 +181,16 @@ $\pi$
 > [$\pi$
 > {$\pi$
 > /$\pi$
+
+Fixed by using backtick delimiters:
+
+> $`\pi`$
+> '$`\pi`$
+> "$`\pi`$
+> ($`\pi`$
+> [$`\pi`$
+> {$`\pi`$
+> /$`\pi`$
 
 ### Oversized sqrt symbol around fractions
 
@@ -279,4 +276,8 @@ $$
 > \begin{pmatrix}a & b\\ c & d\end{pmatrix}
 > $$
 
-What works: Using triple-backtick math, or inserting a linebreak after the `\\`.
+What works: Using triple-backtick delimiters, or inserting a linebreak after the `\\`.
+
+> ```math
+> \begin{pmatrix}a & b\\ c & d\end{pmatrix}
+> ```
