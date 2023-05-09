@@ -38,7 +38,6 @@ $\{a\,b\}$
 
 With backtick math:
 
-
 ```markdown
 $`\{a\,b\}`$
 ```
@@ -68,6 +67,22 @@ ${a}_b c_{d}$
 > $[(a+b)c](d+e)$
 >
 > ${a}_b c_{d}$
+
+With backtick math:
+
+```markdown
+$`a <b > c`$
+
+$`[(a+b)c](d+e)`$
+
+$`{a}_b c_{d}`$
+```
+
+> $`a <b > c`$
+>
+> $`[(a+b)c](d+e)`$
+>
+> $`{a}_b c_{d}`$
 
 ### Sum/product signs in inline mode or fractions
 
@@ -108,6 +123,14 @@ _Equation $\Omega(69)$ in italic text_
 
 > _Equation $\Omega(69)$ in italic text_
 
+With backtick math:
+
+```markdown
+_Equation $`\Omega(69)`$ in italic text_
+```
+
+> _Equation $`\Omega(69)`$ in italic text_
+
 ### Inline math and display math in same list item doesn't render
 
 - https://github.com/orgs/community/discussions/17325
@@ -128,6 +151,18 @@ _Equation $\Omega(69)$ in italic text_
 ````
 
 > - $a$
+>
+>   ```math
+>   a
+>   ```
+>
+> - ```math
+>   b
+>   ```
+
+With backtick math:
+
+> - $`a`$
 >
 >   ```math
 >   a
