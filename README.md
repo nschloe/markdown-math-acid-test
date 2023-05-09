@@ -115,9 +115,10 @@ a
 ### Backslashes in `$`-math
 
 - ~~https://github.com/orgs/community/discussions/16993~~
-- https://github.com/orgs/community/discussions/17143
+- ~~https://github.com/orgs/community/discussions/17143~~
 - ~~https://github.com/orgs/community/discussions/31812~~
 - ~~https://github.com/orgs/community/discussions/46788~~
+- ~~https://github.com/orgs/community/discussions/47295~~
 
 ```markdown
 $\{a\,b\}$
@@ -131,9 +132,9 @@ Fixed by using backtick delimiters:
 
 ### Math vs. HTML mix-up
 
-- https://github.com/orgs/community/discussions/17022
-- https://github.com/orgs/community/discussions/36915
-- https://github.com/orgs/community/discussions/41087
+- ~~https://github.com/orgs/community/discussions/17022~~
+- ~~https://github.com/orgs/community/discussions/36915~~
+- ~~https://github.com/orgs/community/discussions/41087~~
 - https://github.com/orgs/community/discussions/54934
 
 ```markdown
