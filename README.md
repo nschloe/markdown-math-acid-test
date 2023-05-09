@@ -176,6 +176,13 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 > When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 > $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
+Fixed by using backtick delimiters:
+
+> When $`a \ne 0`$, there are two solutions to $`(ax^2 + bx + c = 0)`$ and they are
+> ```math
+> x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+> ```
+
 ### Spacing around dollar sign in math mode
 
 - https://github.com/orgs/community/discussions/17116
