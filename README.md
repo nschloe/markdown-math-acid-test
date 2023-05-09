@@ -1,9 +1,9 @@
 # GitHub math bugs
 
-Math on GitHub is buggy. (See
-[my](https://nschloe.github.io/2022/05/20/math-on-github.html)
-[blog](https://nschloe.github.io/2022/06/27/math-on-github-follow-up.html)
-posts about it.)
+Math on GitHub is buggy. (See my blog posts
+[https://nschloe.github.io/2022/05/20/math-on-github.html,
+https://nschloe.github.io/2022/06/27/math-on-github-follow-up.html] posts about
+it.)
 
 To keep track of what's working and what isn't, I've created this repo with
 some MWEs. If you have any more examples, let me know or PR!
