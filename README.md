@@ -8,117 +8,7 @@ posts about it.)
 To keep track of what's working and what isn't, I've created this repo with
 some MWEs. If you have any more examples, let me know or PR!
 
-### Dollar-math with spaces
-
-- https://github.com/orgs/community/discussions/30747
-
-This is the example from [GitHub's announcement blog
-post](https://github.blog/2022-05-19-math-support-in-markdown/).
-
-```markdown
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-```
-
-> When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
-> $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-### Backslashes in `$`-math
-
-- https://github.com/orgs/community/discussions/16993
-- https://github.com/orgs/community/discussions/17143
-- https://github.com/orgs/community/discussions/31812
-- https://github.com/orgs/community/discussions/46788
-
-```markdown
-$\{a\,b\}$
-```
-
-> $\{a\,b\}$
-
-Fixed by using backtick delimiters:
-
-> $`\{a\,b\}`$
-
-### Math vs. HTML mix-up
-
-- https://github.com/orgs/community/discussions/17022
-- https://github.com/orgs/community/discussions/36915
-- https://github.com/orgs/community/discussions/41087
-
-```markdown
-$a <b > c$
-
-$[(a+b)c](d+e)$
-
-${a}_b c_{d}$
-```
-
-> $a <b > c$
->
-> <!--Terminate the (false) bold tag-->
-> </b>
->
-> $[(a+b)c](d+e)$
->
-> ${a}_b c_{d}$
-
-Some fixed by using backtick delimiters:
-
-> $`a <b > c`$
->
-> $`[(a+b)c](d+e)`$
->
-> $`{a}_b c_{d}`$
-
-### Sum/product signs in inline mode or fractions
-
-- https://github.com/orgs/community/discussions/17051
-- https://github.com/orgs/community/discussions/39432
-
-````markdown
-$f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
-
-```math
-\frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
-```
-````
-
-> $f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}$
->
-> ```math
-> \frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
-> ```
-
-### Spacing around dollar sign in math mode
-
-- https://github.com/orgs/community/discussions/17116
-
-```markdown
-$x = \$$
-```
-
-> $x = \$$
-
-Fixed by using backtick delimiters:
-
-> $`x = \$`$
-
-### Math in italic text
-
-- https://github.com/orgs/community/discussions/17264
-
-```markdown
-_Equation $\Omega(69)$ in italic text_
-```
-
-> _Equation $\Omega(69)$ in italic text_
-
-Fixed by using backtick delimiters:
-
-> _Equation $`\Omega(69)`$ in italic text_
-
-### Inline math and display math in same list item doesn't render
+### Inline and display math in same list item doesn't render
 
 - https://github.com/orgs/community/discussions/17325
 - https://github.com/orgs/community/discussions/18817
@@ -126,7 +16,7 @@ Fixed by using backtick delimiters:
 - https://github.com/orgs/community/discussions/40775
 
 ````markdown
-- $a$
+- $`a`$
 
   ```math
   a
@@ -136,18 +26,6 @@ Fixed by using backtick delimiters:
   b
   ```
 ````
-
-> - $a$
->
->   ```math
->   a
->   ```
->
-> - ```math
->   b
->   ```
-
-With backtick delimiters:
 
 > - $`a`$
 >
@@ -159,51 +37,23 @@ With backtick delimiters:
 >   b
 >   ```
 
-### Inline math can't be preceded by brackets, quotation marks etc.
+### Sum/product signs in inline mode or fractions
 
-- https://github.com/orgs/community/discussions/28115
-- https://github.com/orgs/community/discussions/30157
-
-```markdown
-$\pi$
-'$\pi$
-"$\pi$
-($\pi$
-[$\pi$
-{$\pi$
-/$\pi$
-```
-
-> $\pi$
-> '$\pi$
-> "$\pi$
-> ($\pi$
-> [$\pi$
-> {$\pi$
-> /$\pi$
-
-Fixed by using backtick delimiters:
-
-> $`\pi`$
-> '$`\pi`$
-> "$`\pi`$
-> ($`\pi`$
-> [$`\pi`$
-> {$`\pi`$
-> /$`\pi`$
-
-### Oversized sqrt symbol around fractions
-
-- https://github.com/orgs/community/discussions/39251
+- https://github.com/orgs/community/discussions/17051
+- https://github.com/orgs/community/discussions/39432
 
 ````markdown
+$`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
+
 ```math
-\sqrt{\frac{1}{2}}
+\frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
 ```
 ````
 
+> $`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
+>
 > ```math
-> \sqrt{\frac{1}{2}}
+> \frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
 > ```
 
 ### Dollar in `\text`
@@ -260,6 +110,145 @@ a
 > 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
 > 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
 > 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+> ```
+
+### Backslashes in `$`-math
+
+- https://github.com/orgs/community/discussions/16993
+- https://github.com/orgs/community/discussions/17143
+- https://github.com/orgs/community/discussions/31812
+- https://github.com/orgs/community/discussions/46788
+
+```markdown
+$\{a\,b\}$
+```
+
+> $\{a\,b\}$
+
+Fixed by using backtick delimiters:
+
+> $`\{a\,b\}`$
+
+### Math vs. HTML mix-up
+
+- https://github.com/orgs/community/discussions/17022
+- https://github.com/orgs/community/discussions/36915
+- https://github.com/orgs/community/discussions/41087
+- https://github.com/orgs/community/discussions/54934
+
+```markdown
+$a <b > c$
+
+$[(a+b)c](d+e)$
+
+${a}_b c_{d}$
+```
+
+> $a <b > c$
+>
+> <!--Terminate the (false) bold tag-->
+> </b>
+>
+> $[(a+b)c](d+e)$
+>
+> ${a}_b c_{d}$
+
+Some fixed by using backtick delimiters:
+
+> $`a <b > c`$
+>
+> $`[(a+b)c](d+e)`$
+>
+> $`{a}_b c_{d}`$
+
+### Dollar-math with spaces
+
+- https://github.com/orgs/community/discussions/30747
+
+This is the example from [GitHub's announcement blog
+post](https://github.blog/2022-05-19-math-support-in-markdown/).
+
+```markdown
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+```
+
+> When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+> $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+### Spacing around dollar sign in math mode
+
+- https://github.com/orgs/community/discussions/17116
+
+```markdown
+$x = \$$
+```
+
+> $x = \$$
+
+Fixed by using backtick delimiters:
+
+> $`x = \$`$
+
+### Math in italic text
+
+- https://github.com/orgs/community/discussions/17264
+
+```markdown
+_Equation $\Omega(69)$ in italic text_
+```
+
+> _Equation $\Omega(69)$ in italic text_
+
+Fixed by using backtick delimiters:
+
+> _Equation $`\Omega(69)`$ in italic text_
+
+### Inline math can't be preceded by brackets, quotation marks etc.
+
+- https://github.com/orgs/community/discussions/28115
+- https://github.com/orgs/community/discussions/30157
+
+```markdown
+$\pi$
+'$\pi$
+"$\pi$
+($\pi$
+[$\pi$
+{$\pi$
+/$\pi$
+```
+
+> $\pi$
+> '$\pi$
+> "$\pi$
+> ($\pi$
+> [$\pi$
+> {$\pi$
+> /$\pi$
+
+Fixed by using backtick delimiters:
+
+> $`\pi`$
+> '$`\pi`$
+> "$`\pi`$
+> ($`\pi`$
+> [$`\pi`$
+> {$`\pi`$
+> /$`\pi`$
+
+### Oversized sqrt symbol around fractions
+
+- https://github.com/orgs/community/discussions/39251
+
+````markdown
+```math
+\sqrt{\frac{1}{2}}
+```
+````
+
+> ```math
+> \sqrt{\frac{1}{2}}
 > ```
 
 ### Matrices without line breaks in $$-math
