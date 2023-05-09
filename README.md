@@ -36,6 +36,16 @@ $\{a\,b\}$
 
 > $\{a\,b\}$
 
+With backtick math:
+
+
+```markdown
+$`\{a\,b\}`$
+```
+
+> $`\{a\,b\}`$
+
+
 ### Math vs. HTML mix-up
 
 - https://github.com/orgs/community/discussions/17022
