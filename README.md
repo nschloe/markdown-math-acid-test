@@ -114,10 +114,10 @@ a
 
 ### Backslashes in `$`-math
 
-- https://github.com/orgs/community/discussions/16993
+- ~~https://github.com/orgs/community/discussions/16993~~
 - https://github.com/orgs/community/discussions/17143
-- https://github.com/orgs/community/discussions/31812
-- https://github.com/orgs/community/discussions/46788
+- ~~https://github.com/orgs/community/discussions/31812~~
+- ~~https://github.com/orgs/community/discussions/46788~~
 
 ```markdown
 $\{a\,b\}$
@@ -185,7 +185,7 @@ Fixed by using backtick delimiters:
 
 ### Spacing around dollar sign in math mode
 
-- https://github.com/orgs/community/discussions/17116
+- ~~https://github.com/orgs/community/discussions/17116~~
 
 ```markdown
 $x = \$$
@@ -199,7 +199,7 @@ Fixed by using backtick delimiters:
 
 ### Math in italic text
 
-- https://github.com/orgs/community/discussions/17264
+- ~~https://github.com/orgs/community/discussions/17264~~
 
 ```markdown
 _Equation $\Omega(69)$ in italic text_
@@ -213,8 +213,8 @@ Fixed by using backtick delimiters:
 
 ### Inline math can't be preceded by brackets, quotation marks etc.
 
-- https://github.com/orgs/community/discussions/28115
-- https://github.com/orgs/community/discussions/30157
+- ~~https://github.com/orgs/community/discussions/28115~~
+- ~~https://github.com/orgs/community/discussions/30157~~
 
 ```markdown
 $\pi$
