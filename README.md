@@ -56,6 +56,18 @@ $`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
 > \frac{\sum_{i=1}^n a_i \prod_{i=1}^n b_i}{2}
 > ```
 
+### Inline math at the end of stylized text
+
+- https://github.com/orgs/community/discussions/55033
+
+````markdown
+_$`a`$ equals $`b`$_
+*$`a`$ equals $`b`$*
+````
+
+> _$`a`$ equals $`b`$_
+> *$`a`$ equals $`b`$*
+
 ### Dollar in `\text`
 
 - https://github.com/orgs/community/discussions/39655
