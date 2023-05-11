@@ -61,6 +61,22 @@ $`a<b`$
 >
 > [^a]: Lorem $`a`$
 
+### Comments before bracket delimiters
+
+- https://github.com/orgs/community/discussions/55228
+
+````markdown
+```math
+\left%
+(a+b\right)
+```
+````
+
+> ```math
+> \left%
+> (a+b\right)
+> ```
+
 ### Sum/product signs in inline mode or fractions
 
 - https://github.com/orgs/community/discussions/17051
