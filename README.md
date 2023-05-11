@@ -47,6 +47,20 @@ $`a<b`$
 
 > $`a<b`$
 
+### Math doesn't render in footnotes
+
+- https://github.com/orgs/community/discussions/55227
+
+```markdown
+[^a]
+
+[^a]: Lorem $`a`$
+```
+
+> [^a]
+>
+> [^a]: Lorem $`a`$
+
 ### Sum/product signs in inline mode or fractions
 
 - https://github.com/orgs/community/discussions/17051
