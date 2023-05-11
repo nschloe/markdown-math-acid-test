@@ -71,6 +71,18 @@ $`a<b`$
 
 > [$`a`$](x)
 
+### Inline math with `%\n`
+
+- https://github.com/orgs/community/discussions/55237
+
+```markdown
+$`a+%
+b`$
+```
+
+> $`a+%
+> b`$
+
 ### Comments before bracket delimiters
 
 - https://github.com/orgs/community/discussions/55228
