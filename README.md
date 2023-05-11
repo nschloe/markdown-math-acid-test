@@ -61,6 +61,16 @@ $`a<b`$
 >
 > [^a]: Lorem $`a`$
 
+### Math doesn't render in links
+
+- https://github.com/orgs/community/discussions/55232
+
+```markdown
+[$`a`$](x)
+```
+
+> [$`a`$](x)
+
 ### Comments before bracket delimiters
 
 - https://github.com/orgs/community/discussions/55228
