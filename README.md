@@ -37,6 +37,16 @@ some MWEs. If you have any more examples, let me know or PR!
 >   b
 >   ```
 
+### `<` without surrounding whitespace
+
+- https://github.com/orgs/community/discussions/55225
+
+```markdown
+$`a<b`$
+```
+
+> $`a<b`$
+
 ### Sum/product signs in inline mode or fractions
 
 - https://github.com/orgs/community/discussions/17051
