@@ -79,6 +79,24 @@ a<b
 
 > [$`a`$](x)
 
+### Math doesn't render when preceeded by an alphabetic character
+
+- https://github.com/orgs/community/discussions/55343
+
+```markdown
+a$`x`$
+
+-$`x`$
+
+1$`x`$
+```
+
+> a$`x`$
+>
+> -$`x`$
+>
+> 1$`x`$
+
 ### Inline math with `%\n`
 
 - https://github.com/orgs/community/discussions/55237
