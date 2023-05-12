@@ -41,11 +41,19 @@ some MWEs. If you have any more examples, let me know or PR!
 
 - https://github.com/orgs/community/discussions/55225
 
-```markdown
+````markdown
 $`a<b`$
+
+```math
+a<b
 ```
+````
 
 > $`a<b`$
+>
+> ```math
+> a<b
+> ```
 
 ### Math doesn't render in footnotes
 
