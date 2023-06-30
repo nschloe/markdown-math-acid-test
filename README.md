@@ -41,7 +41,7 @@ some MWEs. If you have any more examples, let me know or PR!
 
 - https://github.com/orgs/community/discussions/57950
 
-```markdown
+````markdown
 <details>
 
 $`A = 5`$
@@ -49,7 +49,7 @@ $`A = 5`$
 A = 5
 ```
 </details>
-```
+````
 
 > <details>
 >
