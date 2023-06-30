@@ -37,6 +37,28 @@ some MWEs. If you have any more examples, let me know or PR!
 >   b
 >   ```
 
+### Inline and display math in `<details>`
+
+- https://github.com/orgs/community/discussions/57950
+
+```markdown
+<details>
+
+$`A = 5`$
+```math
+A = 5
+```
+</details>
+```
+
+> <details>
+>
+> $`A = 5`$
+> ```math
+> A = 5
+> ```
+> </details>
+
 ### `<` without surrounding whitespace
 
 - https://github.com/orgs/community/discussions/55225
