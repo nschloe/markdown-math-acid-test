@@ -101,7 +101,7 @@ a<b
 
 > [$`a`$](x)
 
-### Math doesn't render when preceeded by an alphabetic character
+### Math doesn't render if preceeded by an alphabetic character
 
 - https://github.com/orgs/community/discussions/55343
 
@@ -186,10 +186,12 @@ $`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
 
 ````markdown
 _$`a`$ equals $`b`$_
+
 *$`a`$ equals $`b`$*
 ````
 
 > _$`a`$ equals $`b`$_
+>
 > *$`a`$ equals $`b`$*
 
 ### Dollar in `\text`
