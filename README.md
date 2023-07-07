@@ -180,7 +180,7 @@ $`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
 > \operatorname*{Min}_{x}
 > ```
 
-### Inline math at the end of stylized text
+### Inline math at the end of italic text
 
 - https://github.com/orgs/community/discussions/55033
 
@@ -188,11 +188,15 @@ $`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
 _$`a`$ equals $`b`$_
 
 *$`a`$ equals $`b`$*
+
+**$`a`$ equals $`b`$**
 ````
 
 > _$`a`$ equals $`b`$_
 >
 > *$`a`$ equals $`b`$*
+>
+> **$`a`$ equals $`b`$**
 
 ### Dollar in `\text`
 
