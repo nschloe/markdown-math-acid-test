@@ -37,6 +37,16 @@ some MWEs. If you have any more examples, let me know or PR!
 >   b
 >   ```
 
+### Images and math in the same list breaks images
+
+```markdown
+- ![node logo](https://nodejs.org/static/images/logo.svg)
+- $`x`$
+```
+
+> - ![node logo](https://nodejs.org/static/images/logo.svg)
+> - $`x`$
+
 ### Inline and display math in `<details>`
 
 - https://github.com/orgs/community/discussions/57950
@@ -45,18 +55,22 @@ some MWEs. If you have any more examples, let me know or PR!
 <details>
 
 $`A = 5`$
+
 ```math
 A = 5
 ```
+
 </details>
 ````
 
 > <details>
 >
 > $`A = 5`$
+>
 > ```math
 > A = 5
 > ```
+>
 > </details>
 
 ### `<` without surrounding whitespace
@@ -184,17 +198,17 @@ $`f(x) = \sum_{i=0}^{n} \prod_{j=0}^{n} a_{i,j}`$
 
 - https://github.com/orgs/community/discussions/55033
 
-````markdown
+```markdown
 _$`a`$ equals $`b`$_
 
-*$`a`$ equals $`b`$*
+_$`a`$ equals $`b`$_
 
 **$`a`$ equals $`b`$**
-````
+```
 
 > _$`a`$ equals $`b`$_
 >
-> *$`a`$ equals $`b`$*
+> _$`a`$ equals $`b`$_
 >
 > **$`a`$ equals $`b`$**
 
@@ -354,6 +368,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 Fixed by using backtick delimiters:
 
 > When $`a \ne 0`$, there are two solutions to $`(ax^2 + bx + c = 0)`$ and they are
+>
 > ```math
 > x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 > ```
@@ -437,11 +452,11 @@ Fixed by using backtick delimiters:
 
 - https://github.com/orgs/community/discussions/52991
 
-````markdown
+```markdown
 $$
 \begin{pmatrix}a & b\\ c & d\end{pmatrix}
 $$
-````
+```
 
 > $$
 > \begin{pmatrix}a & b\\ c & d\end{pmatrix}
