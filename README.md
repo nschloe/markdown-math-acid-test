@@ -8,6 +8,12 @@ it.)
 To keep track of what's working and what isn't, I've created this repo with
 some MWEs. If you have any more examples, let me know or PR!
 
+### Math in quotes doesn't render
+
+- https://github.com/github/markup/issues/1732
+
+> $x$ $`y`$
+
 ### Inline and display math in same list item doesn't render
 
 - https://github.com/orgs/community/discussions/17325
