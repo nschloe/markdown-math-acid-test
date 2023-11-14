@@ -408,10 +408,14 @@ Relevant issues:
 ### sqrt symbol around fractions
 
 ```markdown
-$$\sqrt{\frac{1}{2}}$$
+$$
+\sqrt{\frac{1}{2}}
+$$
 ```
 
-> $$\sqrt{\frac{1}{2}}$$
+> $$
+> \sqrt{\frac{1}{2}}
+> $$
 
 Relevant issues:
 
@@ -420,10 +424,18 @@ Relevant issues:
 ### Matrices without line breaks
 
 ```markdown
-$$\begin{pmatrix}a & b\\ c & d\end{pmatrix}$$
+$\begin{pmatrix}a & b\\ c & d\end{pmatrix}$
+
+$$
+\begin{pmatrix}a & b\\ c & d\end{pmatrix}
+$$
 ```
 
-> $$\begin{pmatrix}a & b\\ c & d\end{pmatrix}$$
+> $\begin{pmatrix}a & b\\ c & d\end{pmatrix}$
+>
+> $$
+> \begin{pmatrix}a & b\\ c & d\end{pmatrix}
+> $$
 
 Relevant issues:
 
