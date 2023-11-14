@@ -214,7 +214,7 @@ a$x$
 
 [$x$
 
-{{$x$
+{$x$
 
 /$x$
 
@@ -235,7 +235,7 @@ a$x$
 >
 > [$x$
 >
-> {{$x$
+> {$x$
 >
 > /$x$
 >
@@ -382,7 +382,7 @@ $a <b > c$
 
 $[(a+b)c](d+e)$
 
-${{a}}_b c_{{d}}$
+${a}_b c_{d}$
 ```
 
 > $a <b > c$
@@ -392,7 +392,7 @@ ${{a}}_b c_{{d}}$
 >
 > $[(a+b)c](d+e)$
 >
-> ${{a}}_b c_{{d}}$
+> ${a}_b c_{d}$
 
 Relevant issues:
 
@@ -404,10 +404,10 @@ Relevant issues:
 ### sqrt symbol around fractions
 
 ```markdown
-$$\sqrt{{\frac{{1}}{{2}}}}$$
+$$\sqrt{\frac{1}{2}}$$
 ```
 
-> $$\sqrt{{\frac{{1}}{{2}}}}$$
+> $$\sqrt{\frac{1}{2}}$$
 
 Relevant issues:
 
@@ -416,10 +416,10 @@ Relevant issues:
 ### Matrices without line breaks
 
 ```markdown
-$$\begin{{pmatrix}}a & b\\ c & d\end{{pmatrix}}$$
+$$\begin{pmatrix}a & b\\ c & d\end{pmatrix}$$
 ```
 
-> $$\begin{{pmatrix}}a & b\\ c & d\end{{pmatrix}}$$
+> $$\begin{pmatrix}a & b\\ c & d\end{pmatrix}$$
 
 Relevant issues:
 
