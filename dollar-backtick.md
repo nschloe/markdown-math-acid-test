@@ -32,50 +32,81 @@ Relevant issues:
 
 - https://github.com/orgs/community/discussions/30747
 
-### Math in quote blocks
+### Indented math
 
 ````markdown
+$`\alpha`$
+
+```math
+\alpha
+```
+
+ $`\alpha`$
+
+ ```math
+ \alpha
+ ```
+
+  $`\alpha`$
+
+  ```math
+  \alpha
+  ```
+
+   $`\alpha`$
+
+   ```math
+   \alpha
+   ```
+````
+
 > $`\alpha`$
->
->```math
->\alpha
->```
 >
 > ```math
 > \alpha
 > ```
 >
+>  $`\alpha`$
+>
 >  ```math
 >  \alpha
 >  ```
 >
+>   $`\alpha`$
+>
 >   ```math
 >   \alpha
 >   ```
+>
+>    $`\alpha`$
+>
+>    ```math
+>    \alpha
+>    ```
+
+Relevant issues:
+
+- https://github.com/go-gitea/gitea/issues/27834
+
+### Math in quote blocks
+
+````markdown
+> $`\alpha`$
+>
+> ```math
+> \alpha
+> ```
 ````
 
 > > $`\alpha`$
 > >
-> >```math
-> >\alpha
-> >```
-> >
 > > ```math
 > > \alpha
 > > ```
-> >
-> >  ```math
-> >  \alpha
-> >  ```
-> >
-> >   ```math
-> >   \alpha
-> >   ```
 
 Relevant issues:
 
 - https://github.com/github/markup/issues/1732
-- https://github.com/go-gitea/gitea/issues/27834
 
 ### Escaped dollar sign
 
