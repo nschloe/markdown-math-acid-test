@@ -94,19 +94,26 @@ Relevant issues:
 > $\alpha$
 >
 > $$
-> \alpha
+> \beta
+> $$
+> $$
+> \gamma
 > $$
 ```
 
 > > $\alpha$
 > >
 > > $$
-> > \alpha
+> > \beta
+> > $$
+> > $$
+> > \gamma
 > > $$
 
 Relevant issues:
 
 - https://github.com/github/markup/issues/1732
+- https://github.com/go-gitea/gitea/issues/27777
 
 ### Escaped dollar sign
 
