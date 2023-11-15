@@ -32,6 +32,30 @@ Relevant issues:
 
 - https://github.com/orgs/community/discussions/30747
 
+### Subsequent math
+
+```markdown
+$\alpha$$\beta$
+
+$$
+\gamma
+$$
+$$
+\delta
+$$
+```
+
+> $\alpha$$\beta$
+>
+> $$
+> \gamma
+> $$
+> $$
+> \delta
+> $$
+
+
+
 ### Indented math
 
 ```markdown

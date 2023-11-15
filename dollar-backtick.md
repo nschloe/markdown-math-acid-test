@@ -32,6 +32,30 @@ Relevant issues:
 
 - https://github.com/orgs/community/discussions/30747
 
+### Subsequent math
+
+````markdown
+$`\alpha`$$`\beta`$
+
+```math
+\gamma
+```
+```math
+\delta
+```
+````
+
+> $`\alpha`$$`\beta`$
+>
+> ```math
+> \gamma
+> ```
+> ```math
+> \delta
+> ```
+
+
+
 ### Indented math
 
 ````markdown
@@ -94,19 +118,26 @@ Relevant issues:
 > $`\alpha`$
 >
 > ```math
-> \alpha
+> \beta
+> ```
+> ```math
+> \gamma
 > ```
 ````
 
 > > $`\alpha`$
 > >
 > > ```math
-> > \alpha
+> > \beta
+> > ```
+> > ```math
+> > \gamma
 > > ```
 
 Relevant issues:
 
 - https://github.com/github/markup/issues/1732
+- https://github.com/go-gitea/gitea/issues/27777
 
 ### Escaped dollar sign
 
