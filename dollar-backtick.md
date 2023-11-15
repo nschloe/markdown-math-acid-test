@@ -54,7 +54,9 @@ $`\alpha`$$`\beta`$
 > \delta
 > ```
 
+Relevant issues:
 
+- https://github.com/github/markup/issues/1741
 
 ### Indented math
 
@@ -297,49 +299,13 @@ Relevant issues:
 
 - https://github.com/orgs/community/discussions/55225
 
-### Math preceeded by certains characters
+### Inline math preceeded by non-whitespace
 
 ```markdown
-$`x`$
-
-a$`x`$
-
--$`x`$
-
-'$`x`$
-
-"$`x`$
-
-($`x`$
-
-[$`x`$
-
-{$`x`$
-
-/$`x`$
-
-1$`x`$
+$`x`$ a$`x`$ 1$`x`$ -$`x`$ '$`x`$ "$`x`$ ($`x`$ [$`x`$ {$`x`$ /$`x`$
 ```
 
-> $`x`$
->
-> a$`x`$
->
-> -$`x`$
->
-> '$`x`$
->
-> "$`x`$
->
-> ($`x`$
->
-> [$`x`$
->
-> {$`x`$
->
-> /$`x`$
->
-> 1$`x`$
+> $`x`$ a$`x`$ 1$`x`$ -$`x`$ '$`x`$ "$`x`$ ($`x`$ [$`x`$ {$`x`$ /$`x`$
 
 Relevant issues:
 
@@ -347,6 +313,16 @@ Relevant issues:
 - https://github.com/orgs/community/discussions/30157
 - https://github.com/orgs/community/discussions/55343
 - https://github.com/go-gitea/gitea/issues/27605
+
+### Inline math succeeded by non-whitespace
+
+```markdown
+$`x`$ $`x`$a $`x`$1 $`x`$- $`x`$' $`x`$" $`x`$) $`x`$] $`x`$} $`x`$/
+```
+
+> $`x`$ $`x`$a $`x`$1 $`x`$- $`x`$' $`x`$" $`x`$) $`x`$] $`x`$} $`x`$/
+
+
 
 ### Inline math with `%\n`
 
