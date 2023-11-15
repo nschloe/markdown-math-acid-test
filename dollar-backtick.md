@@ -34,15 +34,48 @@ Relevant issues:
 
 ### Math in quote blocks
 
-```markdown
-> $`x`$ $`y`$
-```
+````markdown
+> $`\alpha`$
+>
+>```math
+>\alpha
+>```
+>
+> ```math
+> \alpha
+> ```
+>
+>  ```math
+>  \alpha
+>  ```
+>
+>   ```math
+>   \alpha
+>   ```
+````
 
-> > $`x`$ $`y`$
+> > $`\alpha`$
+> >
+> >```math
+> >\alpha
+> >```
+> >
+> > ```math
+> > \alpha
+> > ```
+> >
+> >  ```math
+> >  \alpha
+> >  ```
+> >
+> >   ```math
+> >   \alpha
+> >   ```
 
 Relevant issues:
 
 - https://github.com/github/markup/issues/1732
+- https://github.com/go-gitea/gitea/issues/27834
 
 ### Escaped dollar sign
 
@@ -65,6 +98,7 @@ x = \$.
 Relevant issues:
 
 - https://github.com/orgs/community/discussions/17116
+- https://github.com/go-gitea/gitea/issues/27618
 
 ### Inline and display math in same list
 
@@ -250,6 +284,7 @@ Relevant issues:
 - https://github.com/orgs/community/discussions/28115
 - https://github.com/orgs/community/discussions/30157
 - https://github.com/orgs/community/discussions/55343
+- https://github.com/go-gitea/gitea/issues/27605
 
 ### Inline math with `%\n`
 
@@ -264,6 +299,7 @@ b`$
 Relevant issues:
 
 - https://github.com/orgs/community/discussions/55237
+- https://github.com/go-gitea/gitea/issues/27617
 
 ### Comments before bracket delimiters
 
@@ -304,7 +340,7 @@ Relevant issues:
 - https://github.com/orgs/community/discussions/17051
 - https://github.com/orgs/community/discussions/39432
 
-### `\operatorname` not working
+### `\operatorname`
 
 ````markdown
 ```math
@@ -320,6 +356,30 @@ Relevant issues:
 
 - https://github.com/orgs/community/discussions/55368
 
+### Math in stylized text
+
+```markdown
+_Equation $`\Omega(69)`$ in italic text_
+
+*Equation $`\Omega(69)`$ in italic text*
+
+**Equation $`\Omega(69)`$ in bold text**
+
+***Equation $`\Omega(69)`$ in bold italic text***
+```
+
+> _Equation $`\Omega(69)`$ in italic text_
+>
+> *Equation $`\Omega(69)`$ in italic text*
+>
+> **Equation $`\Omega(69)`$ in bold text**
+>
+> ***Equation $`\Omega(69)`$ in bold italic text***
+
+Relevant issues:
+
+- https://github.com/orgs/community/discussions/17264
+
 ### Inline math at the end of stylized text
 
 ```markdown
@@ -328,6 +388,8 @@ _$`a`$ equals $`b`$_
 *$`a`$ equals $`b`$*
 
 **$`a`$ equals $`b`$**
+
+***$`a`$ equals $`b`$***
 ```
 
 > _$`a`$ equals $`b`$_
@@ -335,46 +397,29 @@ _$`a`$ equals $`b`$_
 > *$`a`$ equals $`b`$*
 >
 > **$`a`$ equals $`b`$**
+>
+> ***$`a`$ equals $`b`$***
 
 Relevant issues:
 
 - https://github.com/orgs/community/discussions/55033
 
-### Math in italic text
-
-```markdown
-_Equation $`\Omega(69)`$ in italic text_
-```
-
-> _Equation $`\Omega(69)`$ in italic text_
-
-Relevant issues:
-
-- https://github.com/orgs/community/discussions/17264
-
 ### Dollar in `\text`
 
 ```markdown
-$`
-a
-`$
+$`a`$
 
-- $`
-  \text{$b$}
-  `$
+- $`\text{$b$}`$
 ```
 
-> $`
-> a
-> `$
+> $`a`$
 >
-> - $`
->   \text{$b$}
->   `$
+> - $`\text{$b$}`$
 
 Relevant issues:
 
 - https://github.com/orgs/community/discussions/39655
+- https://github.com/go-gitea/gitea/issues/28070
 
 ### Math vs. HTML mix-ups
 
@@ -421,7 +466,7 @@ Relevant issues:
 
 - https://github.com/orgs/community/discussions/39251
 
-### Matrices without line breaks
+### Matrix without line breaks
 
 ````markdown
 $`\begin{pmatrix}a & b\\ c & d\end{pmatrix}`$
@@ -445,19 +490,19 @@ Relevant issues:
 
 ````markdown
 ```math
-10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
-10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
-10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
-10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
+10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
 ```
 ````
 
 > ```math
-> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
-> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
-> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
-> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
+> 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}\\
 > 10:  {\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}{\color{red}a}
 > ```
 
@@ -469,29 +514,29 @@ Relevant issues:
 
 ````markdown
 ```math
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
 a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
 ```
 ````
 
 > ```math
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
-> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
+> a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}\\
 > a^{1} a^{2} a^{3} a^{4} a^{5} a^{6} a^{7} a^{8} a^{9} a^{10}
 > ```
 
