@@ -1,1 +1,0 @@
-# GitHub math bugs
