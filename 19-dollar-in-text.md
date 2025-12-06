@@ -2,11 +2,11 @@
 
 ---
 
-$\text{$\alpha$}{delim1}
+$\text{$\alpha$}$
 
 ---
 
-$`\text{$\alpha$}{delim1}
+$`\text{$\alpha$}`$
 
 ---
 
